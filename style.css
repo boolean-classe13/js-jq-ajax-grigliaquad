@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#griglia {
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.quadrato {
+    width: 50px;
+    height: 50px;
+    float: left;
+    border: 1px solid black;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.giallo {
+    background-color: yellow;
+}
+
+.verde {
+    background-color: green;
+}
